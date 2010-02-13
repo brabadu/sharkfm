@@ -1,0 +1,6 @@
+Sharkfm is python application made for scrobbling tracks listened on Grooveshark.com to Last.fm.
+At the moment this is console application, but later will work on GAE.
+
+This code is licensed under GNU General Public License.
+
+Boryslav Larin, <brabadu@gmail.com>
