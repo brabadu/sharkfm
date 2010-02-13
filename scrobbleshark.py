@@ -56,7 +56,7 @@ except:
 else:
     print "successfully! :)"
 
-scrobbler = network.get_scrobbler('tst', '1.0')
+scrobbler = network.get_scrobbler('ssk', '1.0')
 print "Scrobbling..."
 for artist, title, time in scrobble_list:
     try:
