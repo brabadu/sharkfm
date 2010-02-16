@@ -53,7 +53,7 @@ class Sharkfm:
     def get_unscrobbled_tracks(self):
         # getting recent plays, from last first (that's why "reverse")
         print "Searching for unscrobbled tracks...",
-        #self.entries.reverse()
+        self.entries.reverse()
         for entry in self.entries:
             track_artist = entry['title'].split(' - ')
             artist = track_artist[-1].strip()
